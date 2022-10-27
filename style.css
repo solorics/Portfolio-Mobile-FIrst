@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  max-width: 768px;
+}
+
+.logo {
+  position: absolute;
+  width: 111px;
+  height: 74px;
+  left: 0;
+  top: 0;
+}
+
+.hamburger {
+  position: absolute;
+  width: 20px;
+  height: 14px;
+  left: 284px;
+  top: 19px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.header h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+  color: #1a2236;
+  position: absolute;
+  width: 220px;
+  height: 100px;
+  left: 16px;
+  top: 104px;
+}
+
+.header p {
+  position: absolute;
+  width: 265px;
+  height: 126px;
+  left: 16px;
+  top: 224px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #1a2236;
+}
+
+.headerButton {
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+  width: 288px;
+  height: 50px;
+  left: 16px;
+  top: 390px;
+  background: #1a2236;
+  border: none;
+}
+
+.headerImage {
+  background-image: url('./images/image_geometry_2.png');
+  position: absolute;
+  width: 320px;
+  height: 160px;
+  left: 0;
+  top: 472px;
+}
