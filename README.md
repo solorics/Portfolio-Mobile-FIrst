@@ -11,8 +11,9 @@
 
 ## Built With
 
-- HTML
-- CSS
+- HTML and CSS
+- Webhint
+- Stylelint
 
 ## Live Demo (if available)
 
@@ -21,29 +22,44 @@
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
+Cloning this project Git clone https://github.com/solorics/Portfolio-Mobile-First.git
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+. A working browser application.
+. VS code or anu other IDE
+. NPM (Node Package Manager)
+
+
+To get a local copy up and running follow these simple example steps.
 
 ### Setup
-
 ### Install
 
+### INSTALLING AND TESTING WEBHINT
+
+. npm init -y
+. npm install --save-dev hint@6.x
+
+For validation detection to use Webhint Run -npx hint .
+
+##INSTALLING AND TESTING STYLEHINT
+
+. npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
+For validation detection to use Webhint Run
+
+. npx stylelint "**/*.{css,scss}"
 ### Usage
-
 ### Run tests
-
 ### Deployment
 
+ . Github
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Solorics**
 
 - GitHub: [@githubhandle](https://github.com/solorics)
 - Twitter: [@twitterhandle](https://twitter.com/Solorics2)

@@ -76,7 +76,8 @@
   border: none;
 }
 
-.image1 {
+.headerImage {
+  background-image: url('./images/image_geometry_2.png');
   position: absolute;
   width: 320px;
   height: 160px;
