@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@400;500&display=swap");
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -30,11 +28,10 @@
 .header {
   display: flex;
   flex-direction: column;
-  font-family: "Playfair Display", sans-serif;
+  font-family: 'Playfair Display', sans-serif;
 }
 
 .header h1 {
-  font-family: "Playfair Display", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
@@ -53,7 +50,7 @@
   height: 126px;
   left: 16px;
   top: 224px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -64,7 +61,7 @@
 
 .headerButton {
   position: absolute;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
