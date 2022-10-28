@@ -8,6 +8,14 @@
 > I set up a new repository and prepare it for development using best practices (e.g. linters).
 > I build the first 2 sections of the mobile website using the template 5.
 
+# 2nd  Milestone
+
+Description the project.
+> For the second milestone in the process of creating my portfolio website,
+
+> I set up a new branch "mobile-section" and prepare it for development using best practices (e.g. linters).
+> I build the second 2 sections (work-section & about-section) of the mobile website using the template 5.
+
 
 ## Built With
 
