@@ -39,7 +39,7 @@
   line-height: 100%;
   color: #1a2236;
   position: absolute;
-  width: 220px;
+  width: 90%;
   height: 100px;
   left: 16px;
   top: 104px;
@@ -47,7 +47,7 @@
 
 .header p {
   position: absolute;
-  width: 265px;
+  width: 90%;
   height: 126px;
   left: 16px;
   top: 224px;
@@ -68,27 +68,39 @@
   font-size: 16px;
   line-height: 24px;
   text-align: center;
-  color: #fff;
-  width: 288px;
+  color: #1a2236;
+  width: 90%;
   height: 50px;
   left: 16px;
   top: 390px;
+  background: white;
+  border: 1px solid #1a2236;
+  cursor: pointer;
+}
+
+.headerButton:hover {
   background: #1a2236;
-  border: none;
+  color: #fff;
+  border: 1px solid #fff;
+  transition: 1.5s;
+  cursor: pointer;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 .headerImage {
   background-image: url('./images/image_geometry_2.png');
   position: absolute;
-  width: 320px;
+  width: 100%;
   height: 160px;
   left: 0;
   top: 472px;
 }
 
 .workSection {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: auto;
+  background-color: white;
+  height: 680px;
 }
 
 .workSection h1 {
@@ -107,8 +119,8 @@
 
 .imgCard {
   position: absolute;
-  width: 320px;
-  height: 186px;
+  width: 100%;
+  height: auto;
   left: 0;
   top: 754px;
   border: 0.333333px solid rgba(255, 255, 255, 0.1);
@@ -118,7 +130,7 @@
 .card {
   background: #1a2236;
   position: absolute;
-  width: 320px;
+  width: 100%;
   height: 156px;
   left: 0;
   top: 940px;
@@ -145,13 +157,12 @@
 .buttons {
   margin-top: 1rem;
   margin-left: 1rem;
-
-  /* position: absolute; */
 }
 
 .projectBtn {
   display: flex;
   gap: 10px;
+  list-style-type: none;
 }
 
 .btn1 {
@@ -168,6 +179,9 @@
   font-size: 10.3334px;
   line-height: 80%;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn2 {
@@ -183,6 +197,9 @@
   line-height: 80%;
   color: #1a2236;
   border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn3 {
@@ -198,6 +215,9 @@
   left: 99px;
   top: 992px;
   background: #98dede;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .submitBtn {
@@ -207,17 +227,27 @@
   font-size: 16px;
   line-height: 24px;
   text-align: center;
-  color: #fff;
+  color: #1a2236;
   width: 178px;
   height: 44px;
   left: 20px;
   top: 1374px;
-  background: transparent;
-  border: 1px solid #fff;
+  background: white;
+  border: 1px solid #1a2236;
   margin-top: 1rem;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  cursor: pointer;
+}
+
+.submitBtn:hover {
+  background: #1a2236;
+  color: #fff;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  transition: 1.5s;
+  cursor: pointer;
+  border: 1px solid white;
 }
 
 #arrow {
@@ -229,8 +259,8 @@
 
 .imgCard2 {
   position: absolute;
-  width: 320px;
-  height: 186px;
+  width: 100%;
+  height: auto;
   left: 0;
   top: 1096px;
   border: 0.333333px solid rgba(255, 255, 255, 0.1);
@@ -240,7 +270,7 @@
 .Card2 {
   background: #1a2236;
   position: absolute;
-  width: 320px;
+  width: 100%;
   height: 156px;
   left: 0;
   top: 1282px;
@@ -266,8 +296,8 @@
 
 .imgCard3 {
   position: absolute;
-  width: 320px;
-  height: 186px;
+  width: 100%;
+  height: auto;
   left: 0;
   top: 1438px;
   border: 0.333333px solid rgba(255, 255, 255, 0.1);
@@ -277,7 +307,7 @@
 .Card3 {
   background: #1a2236;
   position: absolute;
-  width: 320px;
+  width: 100%;
   height: 156px;
   left: 0;
   top: 1624px;
@@ -303,8 +333,8 @@
 
 .imgCard4 {
   position: absolute;
-  width: 320px;
-  height: 186px;
+  width: 100%;
+  height: auto;
   left: 0;
   top: 1780px;
   border: 0.333333px solid rgba(255, 255, 255, 0.1);
@@ -313,7 +343,7 @@
 
 .card4 {
   position: absolute;
-  width: 320px;
+  width: 100%;
   height: 156px;
   left: 0;
   top: 1966px;
@@ -341,8 +371,8 @@
 
 .imgCard5 {
   position: absolute;
-  width: 320px;
-  height: 186px;
+  width: 100%;
+  height: auto;
   left: 0;
   top: 2122px;
   border: 0.333333px solid rgba(255, 255, 255, 0.1);
@@ -351,7 +381,7 @@
 
 .card5 {
   position: absolute;
-  width: 320px;
+  width: 100%;
   height: 156px;
   left: 0;
   top: 2308px;
@@ -379,8 +409,8 @@
 
 .imgCard6 {
   position: absolute;
-  width: 320px;
-  height: 186px;
+  width: 100%;
+  height: auto;
   left: 0;
   top: 2122px;
   border: 0.333333px solid rgba(255, 255, 255, 0.1);
@@ -389,7 +419,7 @@
 
 .card6 {
   position: absolute;
-  width: 320px;
+  width: 100%;
   height: 156px;
   left: 0;
   top: 2308px;
@@ -417,8 +447,8 @@
 
 .imgCard7 {
   position: absolute;
-  width: 320px;
-  height: 186px;
+  width: 100%;
+  height: auto;
   left: 0;
   top: 2464px;
   border: 0.333333px solid rgba(255, 255, 255, 0.1);
@@ -427,7 +457,7 @@
 
 .card7 {
   position: absolute;
-  width: 320px;
+  width: 100%;
   height: 156px;
   left: 0;
   top: 2650px;
@@ -473,7 +503,7 @@
 }
 
 .about p {
-  width: 288px;
+  width: 90%;
   height: 126px;
   left: 16px;
   top: 2932px;
@@ -494,20 +524,36 @@
   font-size: 16px;
   line-height: 24px;
   text-align: center;
-  color: #fff;
-  width: 288px;
+  color: #1a2236;
+  width: 90%;
   height: 50px;
   left: 16px;
   top: 3103px;
-  background: #1a2236;
-  border: none;
+  background: white;
+  border: 1px solid #1a2236;
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+}
+
+.aboutButton:hover {
+  background: #1a2236;
+  color: white;
+  transition: 1.5s;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
 }
 
 #aboutImg {
   margin-left: 1.5em;
+}
+
+#aboutImg:hover {
+  background-color: #1a2236;
+  color: #1a2236;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  transition: 1s;
 }
 
 .cards {
@@ -522,7 +568,7 @@
 
 .card1 {
   position: absolute;
-  width: 289px;
+  width: 90%;
   height: 289px;
   left: 16px;
   top: 3180px;
@@ -590,16 +636,16 @@
 }
 
 #bulb {
-  width: 102.22px;
-  height: 102.22px;
+  width: 102px;
+  height: 102px;
   left: 213.62px;
   top: 3681.94px;
   opacity: 0.5;
   transform: rotate(0.53deg);
   display: flex;
   margin-left: 7em;
-  margin-top: -2em;
-  padding: 10px;
+  margin-top: -4em;
+  padding: 0;
 }
 
 .heading2 {
@@ -643,7 +689,7 @@
 
 .card2 {
   position: absolute;
-  width: 289px;
+  width: 90%;
   height: 289px;
   left: 16px;
   top: 3485px;
@@ -652,8 +698,8 @@
 
 .card3 {
   position: absolute;
-  width: 289px;
-  height: 289px;
+  width: 90%;
+  height: auto;
   left: 15px;
   top: 3790px;
   background: #febf52;
@@ -675,6 +721,7 @@
   justify-content: center;
   margin-left: 2em;
   margin-top: 2.5em;
+  margin-bottom: -1em;
   text-decoration: none;
 }
 
@@ -695,5 +742,6 @@
   justify-content: center;
   margin-left: 3em;
   margin-top: 3em;
+  margin-bottom: 2em;
   text-decoration: none;
 }
