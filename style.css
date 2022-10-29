@@ -19,7 +19,7 @@
 }
 
 .hamburger {
-  position: absolute;
+  position: fixed;
   width: 20px;
   height: 14px;
   left: 284px;
