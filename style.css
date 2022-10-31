@@ -748,6 +748,8 @@
 }
 
 .contactLogo {
+  background: url('./images/logo.png');
+  background-repeat: no-repeat;
   position: absolute;
   width: 100%;
   height: 74.02px;
@@ -780,7 +782,7 @@
 }
 
 .content p {
-  width: 100%;
+  width: 90%;
   height: 63px;
   left: 16px;
   top: 4305px;
@@ -915,4 +917,6 @@ footer {
   justify-content: space-around;
   align-items: center;
   padding-top: 2em;
+  text-decoration: none;
+  list-style-type: none;
 }
