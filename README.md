@@ -16,7 +16,14 @@ Description the project.
 > I set up a new branch "mobile-section" and prepare it for development using best practices (e.g. linters).
 > I build the second 2 sections (work-section & about-section) of the mobile website using the template 5.
 
+# 3rd Milestone
 
+Description of the project.
+
+> for the third milestone in the process of creating my portfolio website,
+
+> I set up a new branch "contact-section" and prepare it for development using best practices (e.g liners).
+> I build the third 3 sections (contact-section and footer) of the mobile website using the template 5.
 ## Built With
 
 - HTML and CSS

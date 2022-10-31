@@ -19,7 +19,7 @@
 }
 
 .hamburger {
-  position: absolute;
+  position: fixed;
   width: 20px;
   height: 14px;
   left: 284px;
@@ -47,7 +47,7 @@
 
 .header p {
   position: absolute;
-  width: 90%;
+  width: 80%;
   height: 126px;
   left: 16px;
   top: 224px;
@@ -487,6 +487,7 @@
   display: flex;
   flex-direction: column;
   font-family: 'Playfair Display', sans-serif;
+  background: white;
 }
 
 .about h1 {
@@ -744,4 +745,178 @@
   margin-top: 3em;
   margin-bottom: 2em;
   text-decoration: none;
+}
+
+.contactLogo {
+  background: url('./images/logo.png');
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100%;
+  height: 74.02px;
+  left: 0;
+  top: 4129px;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.content h1 {
+  width: 100%;
+  height: 50px;
+  left: 16px;
+  top: 4235px;
+  font-family: 'Playfair Display', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+  color: #1a2236;
+  position: absolute;
+}
+
+.content p {
+  width: 90%;
+  height: 63px;
+  left: 16px;
+  top: 4305px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #1a2236;
+  position: absolute;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#fullName {
+  position: absolute;
+  width: 90%;
+  height: 52px;
+  left: 16px;
+  top: 4400px;
+  background: #fff;
+  border: 1px solid #dfdfe0;
+  border-radius: 4px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  color: #7d7c84;
+  padding-left: 15px;
+  padding-bottom: 20px;
+}
+
+#myEmail {
+  position: absolute;
+  width: 90%;
+  height: 52px;
+  left: 16px;
+  top: 4460px;
+  background: #fff;
+  border: 1px solid #1a2236;
+  border-radius: 4px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  color: #7d7c84;
+  padding-left: 15px;
+  padding-bottom: 20px;
+}
+
+#msg {
+  position: absolute;
+  width: 90%;
+  height: 112px;
+  left: 16px;
+  top: 4520px;
+  background: #fff;
+  border: 1px solid #dfdfe0;
+  border-radius: 4px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #7d7c84;
+  padding-left: 15px;
+  padding-bottom: 20px;
+}
+
+#button {
+  position: absolute;
+  width: 90%;
+  height: 44px;
+  left: 16px;
+  top: 4652px;
+  background: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #1a2236;
+  border: 1px solid #1a2236;
+  cursor: pointer;
+}
+
+#button:hover {
+  background: #1a2236;
+  color: #fff;
+  transition: 1.5s;
+}
+
+.myFooter {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  background-color: #1a2236;
+  position: absolute;
+  width: 100%;
+  height: 150px;
+  left: 0;
+  top: 4760px;
+  color: #92dcdc;
+}
+
+.myFooter h3 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 15px;
+  padding-top: 2em;
+  align-items: center;
+  gap: 15px;
+}
+
+.myHandles {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 2em;
+  text-decoration: none;
+  list-style-type: none;
 }
