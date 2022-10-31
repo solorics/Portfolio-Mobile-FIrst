@@ -16,6 +16,27 @@ Description the project.
 > I set up a new branch "mobile-section" and prepare it for development using best practices (e.g. linters).
 > I build the second 2 sections (work-section & about-section) of the mobile website using the template 5.
 
+# 3rd Milestone
+
+Description of the project.
+
+> for the third milestone in the process of creating my portflio website,
+
+> I set up a new branch "contact-section" and prepare it for development using best practices (e.g liners).
+> I build the third 3 sections (contact-section and footer) of the mobile website using the template 5.
+
+## I ensure that:
+
+> Name field accepts up to 30 chars.
+> Email field accepts only emails.
+> Message field accepts up to 500 chars.
+> All fields have placeholder text.
+> All fields have the correct type.
+> A user cannot submit the form if one or more of the fields is empty.
+> Collect data by using the Formspree service.
+> I also lay out the elements on the page using Flexbox.
+> I sticked to the design as much as possible (e.g., font, colors, images, text, margins) using the templates in Figma.
+> I Implement the button interactions (enable, hover, etc.).
 
 ## Built With
 
