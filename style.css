@@ -811,6 +811,10 @@ form {
   justify-content: center;
 }
 
+label {
+  display: none;
+}
+
 #fullName {
   position: absolute;
   width: 90%;
@@ -1585,61 +1589,112 @@ footer {
     display: flex;
   }
 
+  label {
+    display: block;
+  }
+
+  .label1 label {
+    position: absolute;
+    width: 66px;
+    height: 18px;
+    left: 449px;
+    top: 4223px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #7d7c84;
+  }
+
+  .label2 label {
+    position: absolute;
+    width: 64px;
+    height: 18px;
+    left: 738px;
+    top: 4223px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #7d7c84;
+  }
+
+  .label3 label {
+    position: absolute;
+    width: 140.83px;
+    height: 18px;
+    left: 449px;
+    top: 4325px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #7d7c84;
+  }
+
   #fullName {
     position: absolute;
-    width: 50%;
-    height: 52px;
-    left: 24em;
-    top: 4180px;
+    width: 254px;
+    height: 60px;
+    left: 449px;
+    top: 4245px;
     background: #fff;
-    border: 1px solid #dfdfe0;
+    border: 1px solid #e0e0e0;
     border-radius: 4px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 15px;
-    color: #7d7c84;
-    padding-left: 15px;
-    padding-bottom: 20px;
+    line-height: 24px;
+    color: #1a2236;
+    padding-top: 10px;
   }
 
   #myEmail {
     position: absolute;
-    width: 50%;
-    height: 52px;
-    left: 24em;
-    top: 4265px;
+    width: 253px;
+    height: 60px;
+    left: 738px;
+    top: 4245px;
     background: #fff;
-    border: 1px solid #1a2236;
+    border: 1px solid #252c40;
     border-radius: 4px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 15px;
-    color: #7d7c84;
-    padding-left: 15px;
-    padding-bottom: 20px;
+    line-height: 24px;
+    color: #1a2236;
+    padding-top: 10px;
+  }
+
+  #myEmail::-webkit-input-placeholder {
+    color: transparent;
+  }
+
+  #myEmail::placeholder {
+    color: transparent;
   }
 
   #msg {
     position: absolute;
-    width: 50%;
-    height: 112px;
-    left: 24em;
-    top: 4353px;
+    width: 542px;
+    height: 140px;
+    left: 449px;
+    top: 4347px;
     background: #fff;
-    border: 1px solid #dfdfe0;
+    border: 1px solid #e0e0e0;
     border-radius: 4px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 21px;
+    line-height: 24px;
     color: #7d7c84;
-    padding-left: 15px;
-    padding-bottom: 20px;
+    padding-top: 1em;
   }
 
   #button {

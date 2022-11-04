@@ -277,13 +277,21 @@
                         answer all your questions.</p>
                 </div>
                 <form action="https://formspree.io/f/mjvzkrzj" method="POST">
-                    <input type="text" required id="fullName" placeholder="Your
-                        name"
+                    <div class="label1">
+                        <label for="fullName">Your name</label>
+                        <input type="text" required id="fullName" placeholder="Your name"
                         name="Full Name" maxlength="30">
+                    </div>
+                   
+                   <div class="label2">
+                    <label for="myEmail">Your email</label>
                     <input type="email" required name="Email" id="myEmail"
-                        placeholder="Your email">
-                    <textarea name="subject" id="msg" placeholder="Enter your
-                        message here..." maxlength="500" required></textarea>
+                    placeholder="Your email">
+                   </div>
+                        <div class="label3">
+                            <label for="msg">Message</label>
+                            <textarea name="subject" id="msg" placeholder="Enter your message here..." maxlength="500" required></textarea>
+                        </div>   
                     <input type="submit" value="Start collaboration"
                         id="button">
                 </form>
