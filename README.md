@@ -34,6 +34,14 @@ Description of the project.
  > I set up a new branch "desktop-version" and prepare it for development using best practices (e.g linters).
 
  > build desktop version for the portfolio using the figma template 5.
+
+# Animation and Transition
+
+>  #Description
+
+> Add Transition to the Nav-Links
+> Collaborate With my Group Partner
+> Add Animation to the Buttons.
 ## Built With
 
 - HTML and CSS
@@ -85,6 +93,7 @@ For validation detection to use Webhint Run
 ## Authors
 
 👤 **Solorics**
+
 
 - GitHub: [@githubhandle](https://github.com/solorics)
 - Twitter: [@twitterhandle](https://twitter.com/Solorics2)

@@ -985,6 +985,8 @@ footer {
   a {
     text-decoration: none;
     color: #1a2236;
+    transition-duration: 1.5s;
+    transition-property: background, color;
   }
 
   .myNav {
@@ -1002,6 +1004,13 @@ footer {
     justify-content: center;
     padding-top: 3em;
     gap: 4em;
+  }
+
+  .navList:hover {
+    background-color: wheat;
+    color: #1a2236;
+    padding: 8px 8px;
+    border-radius: 8px;
   }
 
   #hello {
@@ -1080,6 +1089,18 @@ footer {
     background: #1a2236;
     color: #fff;
     margin-left: -6em;
+    animation-name: btn;
+    animation-duration: 4s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes btn {
+    0% { border-radius: 0 0 0 0; }
+    25% { border-radius: 20% 0 0 0; }
+    50% { border-radius: 20% 20% 0 0; }
+    75% { border-radius: 20% 20% 20% 20%; }
+    100% { border-radius: 20% 20% 20% 20%; }
   }
 
   .workSection {
@@ -1132,38 +1153,6 @@ footer {
     color: #fff;
     margin-top: 56px;
   }
-
-  /* #geometry1 {
-    position: absolute;
-    width: 465px;
-    height: 218px;
-    left: 975px;
-    top: 1797px;
-    background: rgba(26, 34, 54, 0.95);
-    backdrop-filter: blur(12px);
-  } */
-
-  /* #geometry1 h2 {
-    width: 411px;
-    height: 32px;
-    left: 1005px;
-    top: 1827px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 80%;
-    color: #fff;
-  } */
-
-  /* .projectBtns {
-    display: flex;
-    width: 132px;
-    height: 40px;
-    left: 1005px;
-    top: 1879px;
-    background: #98dede;
-  } */
 
   .buttons {
     margin-top: 1rem;
@@ -1705,6 +1694,18 @@ footer {
     top: 4527px;
     background: #1a2236;
     color: #fff;
+    animation-name: btn;
+    animation-duration: 4s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes btn {
+    0% { border-radius: 0 0 0 0; }
+    25% { border-radius: 20% 0 0 0; }
+    50% { border-radius: 20% 20% 0 0; }
+    75% { border-radius: 20% 20% 20% 20%; }
+    100% { border-radius: 20% 20% 20% 20%; }
   }
 
   footer {
