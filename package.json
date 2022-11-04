@@ -1,14 +1,4 @@
 {
-  "name": "template1",
-  "version": "1.0.0",
-  "description": "",
-  "main": "script.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "hint": "^7.1.3",
     "stylelint": "^13.13.1",

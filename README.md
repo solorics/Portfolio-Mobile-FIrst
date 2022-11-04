@@ -24,6 +24,16 @@ Description of the project.
 
 > I set up a new branch "contact-section" and prepare it for development using best practices (e.g liners).
 > I build the third 3 sections (contact-section and footer) of the mobile website using the template 5.
+
+# 4th Milestone 
+ 
+ Description of the Project
+
+ > for the 4th milestone in the process of creating my portfolio website,
+
+ > I set up a new branch "desktop-version" and prepare it for development using best practices (e.g linters).
+
+ > build desktop version for the portfolio using the figma template 5.
 ## Built With
 
 - HTML and CSS
