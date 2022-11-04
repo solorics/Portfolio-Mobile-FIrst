@@ -1133,38 +1133,6 @@ footer {
     margin-top: 56px;
   }
 
-  /* #geometry1 {
-    position: absolute;
-    width: 465px;
-    height: 218px;
-    left: 975px;
-    top: 1797px;
-    background: rgba(26, 34, 54, 0.95);
-    backdrop-filter: blur(12px);
-  } */
-
-  /* #geometry1 h2 {
-    width: 411px;
-    height: 32px;
-    left: 1005px;
-    top: 1827px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 80%;
-    color: #fff;
-  } */
-
-  /* .projectBtns {
-    display: flex;
-    width: 132px;
-    height: 40px;
-    left: 1005px;
-    top: 1879px;
-    background: #98dede;
-  } */
-
   .buttons {
     margin-top: 1rem;
     margin-left: 1rem;
