@@ -62,7 +62,7 @@ For this milestone i make my website available online.
 
 ## Live Demo (if available)
 
-[Live Demo Link](http://127.0.0.1:5500/index.html)
+[Live Demo Link](https://solorics.github.io/Portfolio-Mobile-FIrst/)
 
 
 ## Getting Started
