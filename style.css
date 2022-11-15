@@ -81,6 +81,11 @@
   top: 144px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 300%;
+  text-align: center;
+  color: #000;
 }
 
 .header {
