@@ -42,15 +42,27 @@ Description of the project.
 > Add Transition to the Nav-Links
 > Collaborate With my Group Partner
 > Add Animation to the Buttons.
+
+# 5th Milestone
+
+### Portfolio: application deploy
+
+>. Description
+
+For this milestone i make my website available online.
+
+> deployment using github pages.
+
 ## Built With
 
 - HTML and CSS
 - Webhint
 - Stylelint
+- Github Pages
 
 ## Live Demo (if available)
 
-[Live Demo Link](http://127.0.0.1:5500/index.html)
+[Live Demo Link](https://solorics.github.io/Portfolio-Mobile-FIrst/)
 
 
 ## Getting Started
@@ -98,6 +110,7 @@ For validation detection to use Webhint Run
 - GitHub: [@githubhandle](https://github.com/solorics)
 - Twitter: [@twitterhandle](https://twitter.com/Solorics2)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/solomon-opeyemi-0427a6155/)
+- Portfolio Project: [https://solorics.github.io/Portfolio-Mobile-FIrst/]
 
 ## 🤝 Contributing
 
