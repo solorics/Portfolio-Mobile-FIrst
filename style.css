@@ -77,6 +77,10 @@
   position: absolute;
   width: 66px;
   height: 192px;
+  left: 127px;
+  top: 144px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
 }
 
 .header {
