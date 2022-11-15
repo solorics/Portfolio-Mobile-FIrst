@@ -25,6 +25,69 @@
   top: 19px;
 }
 
+.closeBtn {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 284px;
+  top: 24px;
+}
+
+.mobile-menu {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #e5e5e5;
+  overflow: hidden;
+}
+
+.mobileImg1 {
+  position: absolute;
+  width: 263px;
+  height: 114px;
+  left: 0;
+  top: 0;
+  display: none;
+}
+
+.mobileImg2 {
+  position: absolute;
+  width: 320px;
+  height: 150px;
+  left: 0;
+  top: 418px;
+  display: none;
+}
+
+.mobile-menu a {
+  text-decoration: none;
+  list-style: none;
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+/* .mobileContents {
+  position: absolute;
+  width: 66px;
+  height: 192px;
+  left: 127px;
+  top: 144px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 300%;
+  text-align: center;
+  color: #000;
+} */
+
 .header {
   display: flex;
   flex-direction: column;
@@ -942,7 +1005,7 @@ footer {
   display: none;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 480px) {
   * {
     margin: 0;
     padding: 0;
@@ -951,6 +1014,18 @@ footer {
 
   .desktopImage {
     display: contents;
+  }
+
+  #hamburger-icon {
+    display: none;
+  }
+
+  .mobileImg1 {
+    display: none;
+  }
+
+  .mobileImg2 {
+    display: none;
   }
 
   html,
