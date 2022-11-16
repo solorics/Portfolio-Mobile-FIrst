@@ -53,11 +53,18 @@ For this milestone i make my website available online.
 
 > deployment using github pages.
 
+# Portfolio - mobile menu 
+
+> . Description 
+
+> . For this milestone i add mobile menu to the portfolio
+> . use javaScript to tweak the mobile menu hamburger
 ## Built With
 
 - HTML and CSS
 - Webhint
 - Stylelint
+- eslint
 - Github Pages
 
 ## Live Demo (if available)
@@ -111,6 +118,10 @@ For validation detection to use Webhint Run
 - Twitter: [@twitterhandle](https://twitter.com/Solorics2)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/solomon-opeyemi-0427a6155/)
 - Portfolio Project: [https://solorics.github.io/Portfolio-Mobile-FIrst/]
+
+👤 **Leehany George**
+
+- GitHub: [@githubhandle] (https://github.com/leehaney254)
 
 ## 🤝 Contributing
 

@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,16 +18,39 @@
                 <div class="logo"><img src="./images/logo.png" alt="Logo"></div>
                 <nav class="myNav">
                     <ul class="navs">
-                        <li class="navList" id="hello"><a href="#hello">Hello</a></li>
+                        <li class="navList"><a href="#hello">Hello</a></li>
                         <li class="navList"><a href="#portfolio">Portfolio</a></li>
                         <li class="navList"><a href="#about">About</a></li>
-                        <li class="navList"><a href="#contact">Contact</a></li>
+                        <li class="navList"><a href="#contact" id="id_contact">Contact</a></li>
                     </ul>
-                    <a href="#"><img src="./images/hamburger.png"
-                            alt="hamburger" class="hamburger"></a>
+
+
+                    <div id="hamburger-icon">
+
+
+                        <a href="#"><img src="./images/hamburger.png"
+                                alt="hamburger" class="hamburger"
+                                onclick="openNav"></a>
+
+                        <div id="mobileNav" class="mobile-menu
+                            mobile-menuImage1">
+                            <a class="closeBtn"><img
+                                    src="./images/closeBars.png" alt="Xtime
+                                    image" onclick="closeNav"></a>
+                            <div class="mobileContents">
+                                <a class="pop-nav" href="#hello">Hello</a>
+                                <a class="pop-nav" href="#portfolio">Portfolio</a>
+                                <a class="pop-nav" href="#about">About</a>
+                                <a class="pop-nav" href="#contact">Contact</a>
+                            </div>
+                            <div class="mobile-menuImage2"></div>
+
+                        </div>
+                    </div>
+
                 </nav>
             </header>
-            <section class="header">
+            <section class="header" id="hello">
                 <div class="container">
                     <h1>Solomon Opeyemi</h1>
                     <p>Hello! I am a software developer! I can help you build a
@@ -39,13 +62,12 @@
                         Start collaboration
                     </button>
                     <div class="topImage"></div>
-                    <!-- <img src="./desktopImages/image-geometry_1.png" alt="header-image" class="topImage"> -->
                 </div>
             </section>
             <div class="headerImage"></div>
 
             <section class="workSection">
-                <h1 class="workHeading">Projects</h1>
+                <h1 class="workHeading" id="portfolio">Projects</h1>
                 <img src="./images/img1.png" alt="image" class="imgCard">
                 <div class="card">
                     <h2>Project name goes here</h2>
@@ -86,7 +108,9 @@
                         class="imageDot2">
                     <img src="./desktopImages/image-geometry_7.png" alt="image"
                         class="geometry8">
-                    <div><img src="./desktopImages/Rectangle45.png" alt=""
+
+                    <div>
+                        <img src="./desktopImages/Rectangle45.png" alt=""
                             class="geometry9">
                         <div id="contents">
                             <h4>Project name goes...</h4>
@@ -219,7 +243,7 @@
             </section>
             <section class="about">
                 <div class="right">
-                    <h1>About</h1>
+                    <h1 id="about">About</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore
                         magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -272,26 +296,28 @@
             <section class="contactForm">
                 <div class="contactLogo"></div>
                 <div class="content">
-                    <h1>Get started</h1>
+                    <h1 id="contact">Get started</h1>
                     <p>Please get in touch and our expert support team will
                         answer all your questions.</p>
                 </div>
                 <form action="https://formspree.io/f/mjvzkrzj" method="POST">
                     <div class="label1">
                         <label for="fullName">Your name</label>
-                        <input type="text" required id="fullName" placeholder="Your name"
-                        name="Full Name" maxlength="30">
+                        <input type="text" required id="fullName"
+                            placeholder="Your name"
+                            name="Full Name" maxlength="30">
                     </div>
-                   
-                   <div class="label2">
-                    <label for="myEmail">Your email</label>
-                    <input type="email" required name="Email" id="myEmail"
-                    placeholder="Your email">
-                   </div>
-                        <div class="label3">
-                            <label for="msg">Message</label>
-                            <textarea name="subject" id="msg" placeholder="Enter your message here..." maxlength="500" required></textarea>
-                        </div>   
+
+                    <div class="label2">
+                        <label for="myEmail">Your email</label>
+                        <input type="email" required name="Email" id="myEmail"
+                            placeholder="Your email">
+                    </div>
+                    <div class="label3">
+                        <label for="msg">Message</label>
+                        <textarea name="subject" id="msg" placeholder="Enter
+                            your message here..." maxlength="500" required></textarea>
+                    </div>
                     <input type="submit" value="Start collaboration"
                         id="button">
                 </form>
@@ -320,4 +346,7 @@
                         src="./desktopImages/ic-link_teal.png" alt="logo"></div>
             </footer>
         </div>
+
+        <script src="index.js"></script>
     </body>
+</html>
