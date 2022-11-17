@@ -51,5 +51,4 @@ function fillData() {
   textArea.value = desirializedObject.textArea;
 }
 
-
 window.addEventListener('load', fillData);
