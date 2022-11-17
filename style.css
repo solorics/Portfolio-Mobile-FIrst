@@ -640,6 +640,9 @@
 }
 
 #errorMessage {
+  position: absolute;
+  left: 15px;
+  top: 4701px;
   color: red;
 }
 
@@ -1117,6 +1120,12 @@ footer {
 
   .header .container {
     display: flex;
+  }
+
+  #errorMessage {
+    position: absolute;
+    left: 557px;
+    top: 4497px;
   }
 
   .topImage {
