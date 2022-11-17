@@ -300,7 +300,8 @@
                     <p>Please get in touch and our expert support team will
                         answer all your questions.</p>
                 </div>
-                <form action="https://formspree.io/f/mjvzkrzj" method="POST">
+                <form action="https://formspree.io/f/mjvzkrzj" method="POST"
+                    id="form">
                     <div class="label1">
                         <label for="fullName">Your name</label>
                         <input type="text" required id="fullName"
@@ -318,8 +319,9 @@
                         <textarea name="subject" id="msg" placeholder="Enter
                             your message here..." maxlength="500" required></textarea>
                     </div>
+                    <div id="errorMessage"></div>
                     <input type="submit" value="Start collaboration"
-                        id="button">
+                            id="button">
                 </form>
 
             </section>

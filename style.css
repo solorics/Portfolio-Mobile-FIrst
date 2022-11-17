@@ -639,6 +639,10 @@
   margin-left: 1.5em;
 }
 
+#errorMessage {
+  color: red;
+}
+
 #aboutImg:hover {
   background-color: #1a2236;
   color: #1a2236;

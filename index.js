@@ -1,6 +1,9 @@
 const hamburgerMenu = document.querySelector('.hamburger');
 const closeButton = document.querySelector('.closeBtn');
 const popNav = document.querySelectorAll('.pop-nav');
+const myForm = document.querySelector('#form');
+const myEmail = document.querySelector('#myEmail');
+const errorMessage = document.querySelector('#errorMessage');
 
 function openNav() {
   document.getElementById('mobileNav').style.display = 'block';
@@ -17,3 +20,4 @@ popNav.forEach((link) => {
     document.getElementById('mobileNav').style.display = 'none';
   });
 });
+// Right your code below this line.
