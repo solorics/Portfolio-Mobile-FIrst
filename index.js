@@ -24,6 +24,10 @@ popNav.forEach((link) => {
 myForm.addEventListener('submit', (e) => {
   const emailInput = myEmail.value;
   const regex = /[A-Z]/;
+  if (regex.test(emailInput)) {
+    errorMessage.innerText = 'Your email address should not contain uppercase letters';
+    e.preventDefault();
+  }
 
 });
 
