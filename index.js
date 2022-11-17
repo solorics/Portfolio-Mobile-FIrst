@@ -43,3 +43,9 @@ myForm.addEventListener('submit', (e) => {
   }
 });
 // Add your Code below this line
+
+function fillData() {
+}
+
+
+window.addEventListener('load', fillData);
