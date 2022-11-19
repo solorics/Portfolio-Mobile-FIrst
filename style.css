@@ -251,7 +251,6 @@ h1 {
   width: 100%;
   position: absolute;
   background: #fff;
-  border-radius: 4px solid #1a2236;
   color: #1a2236;
   height: 112px;
   margin-bottom: 20px;
@@ -473,7 +472,7 @@ h1 {
   align-items: center;
   justify-content: center;
   gap: 0.5em;
-  transition: background color;
+  transition: 1.5s;
   transition-duration: 200ms;
   transition-timing-function: ease-in;
 }
