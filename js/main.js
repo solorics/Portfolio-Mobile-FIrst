@@ -22,37 +22,9 @@ extBtn.addEventListener('click', close);
 openMenu.addEventListener('click', close);
 // ===============================================
 
-const projects = [{
-  id: '1',
-  class: 'item2',
-  title: 'Project name goes here',
-  features: ['HTML/CSS', 'Ruby on Rails', 'JavaScript'],
-  image: './assets/images/Rectangle21.svg',
-  img: './assets/images/Union.svg',
-  sideArrows: ['./assets/icons/left.png', './assets/icons/right.png'],
-  span: '3',
-  sideImage: [
-    './assets/images/Rectangle21.svg',
-    './assets/images/Rectangle21.svg',
-    './assets/images/Rectangle21.svg',
-    './assets/images/Rectangle21.svg',
-  ],
-  description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-enim ad minim veniam, quis nostrud exercitation ullamco laboris
-<br /><br />
-nisi Ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit
-amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-veniam, quis nostrud exercitation ullamco laboris nisi.`,
-  linkToSource: 'https://solorics.github.io/Portfolio-Mobile-FIrst/',
-  linkToLive: 'https://github.com/solorics',
-  btn: 'See Source',
-  side: ['Next Project', 'Previous Project'],
-  icons: ['./assets/icons/Vector.png', './assets/icons/Union.png'],
-  btnForPopup: ['See Live', 'See Source'],
-  nextPrevious: ['./assets/icons/pre.png', './assets/icons/next.png'],
-}, {
+// write the code here from line 26 -  56 you can as well clear the comment after you are done
+
+{
   id: '2',
   class: 'item3',
   title: 'Project name goes here',
