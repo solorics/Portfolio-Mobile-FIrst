@@ -45,8 +45,8 @@ nisi Ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit
 amet, consectetur adipiscing elit, sed do eiusmod tempor
 incididunt ut labore et dolore magna aliqua. Ut enim ad minim
 veniam, quis nostrud exercitation ullamco laboris nisi.`,
-  linkToSource: 'https://nurkaamre.github.io/portfolio-mobile-version/',
-  linkToLive: 'https://github.com/NurkaAmre',
+  linkToSource: 'https://solorics.github.io/Portfolio-Mobile-FIrst/',
+  linkToLive: 'https://github.com/solorics',
   btn: 'See Source',
   side: ['Next Project', 'Previous Project'],
   icons: ['./assets/icons/Vector.png', './assets/icons/Union.png'],
@@ -74,8 +74,8 @@ nisi Ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit
 amet, consectetur adipiscing elit, sed do eiusmod tempor
 incididunt ut labore et dolore magna aliqua. Ut enim ad minim
 veniam, quis nostrud exercitation ullamco laboris nisi.`,
-  linkToSource: 'https://nurkaamre.github.io/portfolio-mobile-version/',
-  linkToLive: 'https://github.com/NurkaAmre',
+  linkToSource: 'https://solorics.github.io/Portfolio-Mobile-FIrst/',
+  linkToLive: 'https://github.com/solorics',
   btn: 'See Source',
   side: ['Next Project', 'Previous Project'],
   icons: ['./assets/icons/Vector.png', './assets/icons/Union.png'],
@@ -103,8 +103,8 @@ nisi Ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit
 amet, consectetur adipiscing elit, sed do eiusmod tempor
 incididunt ut labore et dolore magna aliqua. Ut enim ad minim
 veniam, quis nostrud exercitation ullamco laboris nisi.`,
-  linkToSource: 'https://nurkaamre.github.io/portfolio-mobile-version/',
-  linkToLive: 'https://github.com/NurkaAmre',
+  linkToSource: 'https://solorics.github.io/Portfolio-Mobile-FIrst/',
+  linkToLive: 'https://github.com/solorics',
   btn: 'See Source',
   side: ['Next Project', 'Previous Project'],
   icons: ['./assets/icons/Vector.png', './assets/icons/Union.png'],
@@ -132,8 +132,8 @@ nisi Ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit
 amet, consectetur adipiscing elit, sed do eiusmod tempor
 incididunt ut labore et dolore magna aliqua. Ut enim ad minim
 veniam, quis nostrud exercitation ullamco laboris nisi.`,
-  linkToSource: 'https://nurkaamre.github.io/portfolio-mobile-version/',
-  linkToLive: 'https://github.com/NurkaAmre',
+  linkToSource: 'https://solorics.github.io/Portfolio-Mobile-FIrst/',
+  linkToLive: 'https://github.com/solorics',
   btn: 'See Source',
   side: ['Next Project', 'Previous Project'],
   icons: ['./assets/icons/Vector.png', './assets/icons/Union.png'],
@@ -161,8 +161,8 @@ nisi Ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit
 amet, consectetur adipiscing elit, sed do eiusmod tempor
 incididunt ut labore et dolore magna aliqua. Ut enim ad minim
 veniam, quis nostrud exercitation ullamco laboris nisi.`,
-  linkToSource: 'https://nurkaamre.github.io/portfolio-mobile-version/',
-  linkToLive: 'https://github.com/NurkaAmre',
+  linkToSource: 'https://solorics.github.io/Portfolio-Mobile-FIrst/',
+  linkToLive: 'https://github.com/solorics',
   btn: 'See Source',
   side: ['Next Project', 'Previous Project'],
   icons: ['./assets/icons/Vector.png', './assets/icons/Union.png'],
@@ -190,8 +190,8 @@ nisi Ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit
 amet, consectetur adipiscing elit, sed do eiusmod tempor
 incididunt ut labore et dolore magna aliqua. Ut enim ad minim
 veniam, quis nostrud exercitation ullamco laboris nisi.`,
-  linkToSource: 'https://nurkaamre.github.io/portfolio-mobile-version/',
-  linkToLive: 'https://github.com/NurkaAmre',
+  linkToSource: 'https://solorics.github.io/Portfolio-Mobile-FIrst/',
+  linkToLive: 'https://github.com/solorics',
   btn: 'See Source',
   side: ['Next Project', 'Previous Project'],
   icons: ['./assets/icons/Vector.png', './assets/icons/Union.png'],
