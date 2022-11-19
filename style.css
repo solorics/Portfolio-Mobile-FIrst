@@ -356,8 +356,12 @@ h1 {
 }
 
 .top_title {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   width: auto;
+  margin-top: 1em;
+  padding-right: -18px;
+  padding-right: 10px;
+  white-space: nowrap;
 }
 
 .modal__body_wrapper {
@@ -394,6 +398,7 @@ h1 {
 .features-container {
   gap: 0.5em;
   padding: 1em 0 1.25em 0;
+  margin-top: 5px;
 }
 
 .modal__header_bottom .feature {
@@ -413,6 +418,8 @@ h1 {
   border: none;
   color: #1a2236;
   font-size: 1.5rem;
+  margin-right: 1em;
+  margin-top: -2em;
 }
 
 .modal__body_slide {
@@ -436,10 +443,9 @@ h1 {
 }
 
 .slide_item {
-  border: 5px solid #e0e0e0;
-  border-right: none;
-  flex: 1;
-}
+      border-right: none;
+      flex: 1;
+  }
 
 .slide_item:last-child {
   border-right: 5px solid #e0e0e0;
@@ -455,9 +461,10 @@ h1 {
 
 .modal__body_buttons button {
   border: 2px solid #1a2236;
-  margin-bottom: 2em;
-  flex: 1;
-  color: #1a2236;
+    margin-bottom: 2em;
+    flex: 1;
+    color: #1a2236;
+    padding-left: 1em;
 }
 
 .modal__body_buttons button img {
@@ -511,9 +518,10 @@ h1 {
   }
 
   .modal__body_buttons.direction {
-    width: 50%;
+    width: 80%;
     flex-direction: row;
     gap: 20px;
+    height: 5em;
   }
 
   .modal__footer {
@@ -1025,6 +1033,7 @@ h1 {
 .modal__body_buttons .btn:hover img,
 .modal__body_buttons .btn:focus img {
   filter: invert(100%);
+  padding-right: 14px;
 }
 
 .modal__footer .btn:hover,

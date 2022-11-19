@@ -280,11 +280,11 @@ function createModal(id) {
             <div class="modal__body_buttons flex direction">
               <button class="btn secondary-btn flex" type="button">
                 <span>See Live</span>
-                <img src="./assets/icons/arw.png" alt="see this project" />
+                <img src="./assets/icons/Union.png" alt="see this project" />
               </button>
               <button class="btn secondary-btn flex" type="button">
                 <span>See Source</span>
-                <img src="./assets/icons/gitb.png" alt="see this project" />
+                <img src="./assets/icons/Vector.png" alt="see this project" />
               </button>
             </div>
             <div class="modal__footer flex space-between">
