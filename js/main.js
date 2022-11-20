@@ -58,7 +58,7 @@ veniam, quis nostrud exercitation ullamco laboris nisi.`,
   class: 'item3',
   title: 'Project name goes here',
   features: ['HTML/CSS', 'Ruby on Rails', 'JavaScript'],
-  image: './assets/images/Rectangle22.svg',
+  image: './assets/images/Rectangle34.png',
   img: './assets/images/Union.svg',
   sideArrows: ['./assets/icons/left.png', './assets/icons/right.png'],
   sideImage: [
