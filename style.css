@@ -372,7 +372,12 @@ h1 {
   padding-right: -18px;
   padding-right: 10px;
   white-space: nowrap;
-  font-size: 60px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 80%;
+  color: #1a2236;
 }
 
 .modal__body_wrapper {
@@ -418,7 +423,12 @@ h1 {
   background: none;
   border: 1px solid #1a2236;
   padding: 7px 12px;
-  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10.3334px;
+  line-height: 80%;
+  color: #1a2236;
 }
 
 /* modal Project */
@@ -532,6 +542,13 @@ h1 {
     padding-top: 0;
   }
 
+  .modal__header_bottom .feature {
+    background: none;
+    border: 1px solid #1a2236;
+    padding: 7px 12px;
+    font-size: 20px;
+  }
+
   #mobileFormTxt {
     display: none;
   }
@@ -597,6 +614,20 @@ h1 {
 
   .hamburger {
     display: none;
+  }
+
+  .top_title {
+    width: auto;
+    margin-top: 1em;
+    padding-right: -18px;
+    padding-right: 10px;
+    white-space: nowrap;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 80%;
+    color: #1a2236;
   }
 
   .decoration {
