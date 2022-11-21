@@ -58,7 +58,7 @@ veniam, quis nostrud exercitation ullamco laboris nisi.`,
   class: 'item3',
   title: 'Project name goes here',
   features: ['HTML/CSS', 'Ruby on Rails', 'JavaScript'],
-  image: './assets/images/Rectangle34.png',
+  image: './images/Group105.png',
   img: './assets/images/Union.svg',
   sideArrows: ['./assets/icons/left.png', './assets/icons/right.png'],
   sideImage: [
@@ -145,15 +145,9 @@ veniam, quis nostrud exercitation ullamco laboris nisi.`,
   class: 'item8',
   title: 'Project name goes here',
   features: ['HTML/CSS', 'Ruby on Rails', 'JavaScript'],
-  image: './assets/images/Rectangle25.svg',
+  image: './images/Group105.png',
   img: './assets/images/Union.svg',
   sideArrows: ['./assets/icons/left.png', './assets/icons/right.png'],
-  sideImage: [
-    './assets/images/Rectangle25.svg',
-    './assets/images/Rectangle25.svg',
-    './assets/images/Rectangle25.svg',
-    './assets/images/Rectangle25.svg',
-  ],
   description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
 enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -258,20 +252,6 @@ function createModal(id) {
               </div>
               <span class="slide_next flex">&gt;</span>
             </div>
-            <ul class="slide_items flex" role="list">
-              <li class="slide_item active">
-                <img src="${projects[id].sideImage[0]}" alt="project" />
-              </li>
-              <li class="slide_item">
-                <img src="${projects[id].sideImage[1]}" alt="project" />
-              </li>
-              <li class="slide_item">
-                <img src="${projects[id].sideImage[2]}" alt="project" />
-              </li>
-              <li class="slide_item">
-                <img src="${projects[id].sideImage[3]}" alt="project" />
-              </li>
-            </ul>
           </div>
           <div class="modal__body_wrapper">
             <div class="modal__body_description">

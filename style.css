@@ -129,7 +129,7 @@ h1 {
 .feature {
   text-align: center;
   background: #98dede;
-  font-size: 12px;
+  font-size: 10.3334px;
   padding: 0.375em 0.625em;
 }
 
@@ -215,13 +215,17 @@ h1 {
   margin-left: 18px;
 }
 
-.last-text {
+#mobileFormTxt {
   font-size: 14px;
   font-family: var(--ff-normal);
   font-weight: 400;
   margin-top: 20px;
   margin-left: 18px;
   margin-right: 18px;
+}
+
+.last-text {
+  display: none;
 }
 
 .input-item {
@@ -234,15 +238,16 @@ h1 {
 }
 
 .input2 {
-  width: 100%;
+  width: 90%;
   position: absolute;
   background: #fff;
-  border: 2px solid #1a2236;
+  border: 1px solid #1a2236;
   border-radius: 4px;
   height: 52px;
   color: #1a2236;
   padding-left: 0;
   padding-top: 0;
+  margin-left: 12px;
 }
 
 .label1 {
@@ -252,7 +257,7 @@ h1 {
 }
 
 .textarea1 {
-  width: 100%;
+  width: 90%;
   position: absolute;
   background: #fff;
   color: #1a2236;
@@ -261,6 +266,7 @@ h1 {
   font-size: 16px;
   padding-left: 1em;
   padding-top: 1em;
+  margin-left: 12px;
 }
 
 ::placeholder {
@@ -274,9 +280,10 @@ h1 {
   text-align: center;
   background-color: #1a2236;
   padding-block: 12px;
-  width: 100%;
+  width: 90%;
   border: 1px solid #1a2236;
   margin-top: 62px;
+  margin-left: 12px;
 }
 
 .cta-btn-last:hover {
@@ -460,7 +467,7 @@ h1 {
 }
 
 .slide_item.active {
-  border: 5px solid #1a2236;
+  border: 1px solid #1a2236;
 }
 
 .modal__body_description {
@@ -523,6 +530,21 @@ h1 {
 
   .modal__header_title {
     padding-top: 0;
+  }
+
+  #mobileFormTxt {
+    display: none;
+  }
+
+  .last-text {
+    display: contents;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #1a2236;
+    margin-top: 1em;
   }
 
   .modal__body_buttons.direction {
@@ -874,6 +896,11 @@ h1 {
 
   .footer-heading {
     margin-top: 0;
+    font-size: 110px;
+    text-align: center;
+    line-height: 100%;
+    white-space: nowrap;
+    margin-bottom: 30px;
   }
 
   .user-info {
@@ -1005,9 +1032,9 @@ h1 {
   margin-bottom: 15%;
 }
 
-/* .mobile-app {
-  display: none;
-} */
+.slide_show {
+  display: flex;
+}
 
 .nav-link {
   font-weight: 400;
