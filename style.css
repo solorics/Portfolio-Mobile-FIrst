@@ -420,7 +420,7 @@
 }
 
 .imgCard4 {
-  position: absolute;
+  position: relative;
   width: 100%;
   height: auto;
   left: 0;
