@@ -639,6 +639,13 @@
   margin-left: 1.5em;
 }
 
+#errorMessage {
+  position: absolute;
+  left: 15px;
+  top: 4701px;
+  color: red;
+}
+
 #aboutImg:hover {
   background-color: #1a2236;
   color: #1a2236;
@@ -1113,6 +1120,12 @@ footer {
 
   .header .container {
     display: flex;
+  }
+
+  #errorMessage {
+    position: absolute;
+    left: 557px;
+    top: 4497px;
   }
 
   .topImage {
