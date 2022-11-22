@@ -42,7 +42,6 @@ myForm.addEventListener('submit', (e) => {
     localStorage.setItem('userData', serializedObject);
   }
 });
-
 function fillData() {
   const desirializedObject = JSON.parse(localStorage.getItem('userData'));
   fullName.value = desirializedObject.fullName;
