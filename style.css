@@ -18,7 +18,7 @@
 }
 
 .hamburger {
-  position: absolute;
+  position: relative;
   width: 20px;
   height: 14px;
   left: 284px;
@@ -26,10 +26,10 @@
 }
 
 .closeBtn {
-  position: absolute;
+  position: relative;
   width: 16px;
   height: 16px;
-  left: 284px;
+  left: 290px;
   top: 24px;
 }
 
@@ -420,7 +420,7 @@
 }
 
 .imgCard4 {
-  position: absolute;
+  position: relative;
   width: 100%;
   height: auto;
   left: 0;
