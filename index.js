@@ -42,6 +42,31 @@ myForm.addEventListener('submit', (e) => {
     localStorage.setItem('userData', serializedObject);
   }
 });
+
+const firstInput = document.querySelector('#fullName');
+const storedObject = {};
+firstInput.addEventListener('change', () => {
+  storedObject.fullName = firstInput.value;
+  storedObject.emailInput = emailInput.value;
+  storedObject.textArea = textArea.value;
+  const serializedObject = JSON.stringify(storedObject);
+  localStorage.setItem('userData', serializedObject);
+});
+emailInput.addEventListener('change', () => {
+  storedObject.fullName = firstInput.value;
+  storedObject.emailInput = emailInput.value;
+  storedObject.textArea = textArea.value;
+  const serializedObject = JSON.stringify(storedObject);
+  localStorage.setItem('userData', serializedObject);
+});
+textArea.addEventListener('change', () => {
+  storedObject.fullName = firstInput.value;
+  storedObject.emailInput = emailInput.value;
+  storedObject.textArea = textArea.value;
+  const serializedObject = JSON.stringify(storedObject);
+  localStorage.setItem('userData', serializedObject);
+});
+
 function fillData() {
   const desirializedObject = JSON.parse(localStorage.getItem('userData'));
   fullName.value = desirializedObject.fullName;
