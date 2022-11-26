@@ -25,6 +25,22 @@ h1 {
   font-weight: 400;
   font-size: 50px;
   line-height: 100%;
+=======
+.hamburger {
+  position: relative;
+  width: 20px;
+  height: 14px;
+  left: 284px;
+  top: 19px;
+}
+
+.closeBtn {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  left: 290px;
+  top: 24px;
+  
 }
 
 .desktop {
@@ -184,6 +200,22 @@ h1 {
   margin-bottom: 20px;
   font-size: 20px;
   font-weight: 800;
+  line-height: 80%;
+  color: #fff;
+  width: 240px;
+  height: 16px;
+  left: 20px;
+  top: 1644px;
+}
+
+.imgCard4 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  left: 0;
+  top: 1780px;
+  border: 0.333333px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 10px;
 }
 
 .skill-item {
